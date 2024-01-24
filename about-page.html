@@ -4,15 +4,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About-page</title>
+    <title>About me</title>
+    <style>
+        .top_navigation {
+            font-size: 28px;
+            /* 
+        * B R O L
+        * Boven Rechts Onder Links
+        */
+            padding: 10px 100% 20px 10px;
+            margin: 0px 0px 40px 0px;
+
+            .navigation_icon {
+                height: 100px;
+            }
+        }
+
+        .top_navigation a {
+            padding: 100px 12px 12px 12px;
+            margin: 0px 0px 0px 0px;
+            color: black;
+        }
+
+        .top_navigation a:hover {
+            color: red;
+            /*background-color: yellow;*/
+            border-color: black;
+        }
+
+        div h1 {
+            margin-left: 0.5%;
+        }
+
+        p {
+            margin: 0px 0px 0px 40px;
+        }
+
+        a {
+            margin: 0px 0px 0px 40px;
+        }
+
+        ul {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+        ol {
+            padding: 0;
+            margin: 0px 0px 0px 40px;
+        }
+
+        .about img {
+            max-width: 500px;
+            max-height: auto;
+            float: left;
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <h1>Jasmine Swinnen</h1>
-    <p>Bijnaam: Mien</p>
-    <p>Leeftijd: 26</p>
-    <p>Werkgever: Bpost</p>
-    <p>Doggo: Billie</p>
+    <div class="top_navigation">
+
+        <table>
+            <tr>
+                <td>
+                    <img class=navigation_icon src="https://cdn-icons-png.flaticon.com/128/25/25694.png"
+                        alt="Home page">
+                </td>
+                <td>
+                    <img class=navigation_icon src="https://cdn-icons-png.flaticon.com/512/2354/2354160.png"
+                        alt="Contact page">
+                </td>
+                <td>
+                    <img class=navigation_icon src="https://cdn-icons-png.flaticon.com/128/5593/5593552.png"
+                        alt="About me page">
+                </td>
+
+            </tr>
+            <tr>
+                <th>
+                    <a href="./index.html">Home</a>
+                </th>
+                <th>
+                    <a href="./contact.html">Contact</a>
+                </th>
+                <th>
+                    <a href="./about me.html">Info</a>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="about">
+        <h1>JORN</h1>
+        <h1>About me</h1>
+        <ul>
+            <h2>Who am I?</h2>
+            <p>I am the pebble in your shoe.</p>
+
+
+            <h2>What do I do?</h2>
+            <ol>
+                <li>Irritate you at every, single, step.</li>
+                <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia architecto culpa
+                    nostrum
+                    ab
+                    voluptatum blanditiis maxime, consequuntur, impedit dignissimos qui placeat sit dicta itaque
+                    eligendi
+                    necessitatibus, exercitationem libero perferendis.</li>
+            </ol>
+
+
+            <h2>Where can you find me?</h2> <!--target=”_blank” open in new tab-->
+            <p>Not at your feet anymore, it stinks!</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUjcmljayBhc3RsZXkgbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+                target=”_blank”>Thor Park 8040, 3600 Genk</a>
+            <br>
+
+        </ul>
+
+        <div>
+            <br>
+            <span>Sometimes I ask myself these same questions.</span><br><br>
+            <span>What do I do?</span><br>
+            <span>Why am I here?</span><br>
+            <span>How did I get here?</span><br>
+            <span>How did YOU get here?</span><br>
+        </div>
+        </about>
 </body>
 
 </html>
