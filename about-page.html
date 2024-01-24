@@ -7,10 +7,41 @@
     <style>
         body{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: deeppink;
+            color: white;
+        }
+        @media  screen and (max-width: 480px) {
+            body{
+            background-color: olive;    
+            }
+        nav{
+            display: none;
+        }
+        }
+        a{
+            color: white;
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            gap: 1em;
+
+        }
+        @media  screen and (max-width: 780px) {
+        .container {
+            flex-direction: column;
+        }
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about-page.html">Contact</a>
+    </nav>
     <h1>Gert-Jan</h1>
     <p>Voor meer leuke feitjes, klik de afbeelding!</p>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.pinimg.com/280x280_RS/52/93/08/52930887eacd9cc31cbe3f6e409a4bdd.jpg"></a>
@@ -19,5 +50,12 @@
     <p>Leeftijd: 26</p>
     <p>Werkgever: Bpost</p>
     <p>Doggo: Billie</p>
+    <h1>Shirley</h1>
+     <div class="container">
+        <div> <img
+      /></div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, itaque labore. Atque expedita, suscipit in dolorem quae dolor quod odit illo maxime officiis ex beatae libero consequuntur eaque est laboriosam, explicabo ratione quam consectetur perferendis. Doloremque magnam animi, sapiente iure neque magni illo, dolor recusandae ab vitae, quibusdam expedita. Esse illo itaque dolores, id numquam hic doloremque? Quo minus deserunt sit aliquid ipsam dolores harum ducimus error corrupti deleniti nemo non nostrum excepturi iure perferendis esse totam ratione pariatur odit odio, quidem maxime! Voluptas corrupti similique in omnis laudantium accusantium error quam, blanditiis iste placeat nulla pariatur, vel possimus maiores!
+   </div>
+     </div>
 </body>
 </html>
