@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About-page</title>
     <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: deeppink;
+            color: white;
+        }
+        @media  screen and (max-width: 480px) {
+            body{
+            background-color: olive;    
+            }
+        nav{
+            display: none;
+        }
+        }
+        a{
+            color: white;
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            gap: 1em;
+
+        }
         .top_navigation {
             font-size: 28px;
             /* 
@@ -60,10 +84,7 @@
             float: left;
         }
     </style>
-
-
 </head>
-
 <body>
     <div class="top_navigation">
 
@@ -74,10 +95,6 @@
                         alt="Home page">
                 </td>
                 <td>
-                    <img class=navigation_icon src="https://cdn-icons-png.flaticon.com/512/2354/2354160.png"
-                        alt="Contact page">
-                </td>
-                <td>
                     <img class=navigation_icon src="https://cdn-icons-png.flaticon.com/128/5593/5593552.png"
                         alt="About me page">
                 </td>
@@ -85,56 +102,66 @@
             </tr>
             <tr>
                 <th>
-                    <a href="./index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </th>
                 <th>
-                    <a href="./contact.html">Contact</a>
-                </th>
-                <th>
-                    <a href="./about me.html">Info</a>
+                    <a href="about-page.html">Info</a>
                 </th>
             </tr>
         </table>
     </div>
+    <h1>Gert-Jan</h1>
+    <p>Voor meer leuke feitjes, klik de afbeelding!</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.pinimg.com/280x280_RS/52/93/08/52930887eacd9cc31cbe3f6e409a4bdd.jpg"></a>
+    <h1>Jasmine Swinnen</h1>
+    <p>Bijnaam: Mien</p>
+    <p>Leeftijd: 26</p>
+    <p>Werkgever: Bpost</p>
+    <p>Doggo: Billie</p>
+    <h1>Shirley</h1>
+     <div class="container">
+        <div> <img
+      /></div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, itaque labore. Atque expedita, suscipit in dolorem quae dolor quod odit illo maxime officiis ex beatae libero consequuntur eaque est laboriosam, explicabo ratione quam consectetur perferendis. Doloremque magnam animi, sapiente iure neque magni illo, dolor recusandae ab vitae, quibusdam expedita. Esse illo itaque dolores, id numquam hic doloremque? Quo minus deserunt sit aliquid ipsam dolores harum ducimus error corrupti deleniti nemo non nostrum excepturi iure perferendis esse totam ratione pariatur odit odio, quidem maxime! Voluptas corrupti similique in omnis laudantium accusantium error quam, blanditiis iste placeat nulla pariatur, vel possimus maiores!
+   </div>
+</div>
+<div class="about">
+    <h1>JORN</h1>
+    <h1>About me</h1>
+    <ul>
+        <h2>Who am I?</h2>
+        <p>I am the pebble in your shoe.</p>
 
-    <div class="about">
-        <h1>JORN</h1>
-        <h1>About me</h1>
-        <ul>
-            <h2>Who am I?</h2>
-            <p>I am the pebble in your shoe.</p>
 
-
-            <h2>What do I do?</h2>
-            <ol>
-                <li>Irritate you at every, single, step.</li>
-                <br>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia architecto culpa
-                    nostrum
-                    ab
-                    voluptatum blanditiis maxime, consequuntur, impedit dignissimos qui placeat sit dicta itaque
-                    eligendi
-                    necessitatibus, exercitationem libero perferendis.</li>
-            </ol>
-
-
-            <h2>Where can you find me?</h2> <!--target=”_blank” open in new tab-->
-            <p>Not at your feet anymore, it stinks!</p>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUjcmljayBhc3RsZXkgbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
-                target=”_blank”>Thor Park 8040, 3600 Genk</a>
+        <h2>What do I do?</h2>
+        <ol>
+            <li>Irritate you at every, single, step.</li>
             <br>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia architecto culpa
+                nostrum
+                ab
+                voluptatum blanditiis maxime, consequuntur, impedit dignissimos qui placeat sit dicta itaque
+                eligendi
+                necessitatibus, exercitationem libero perferendis.</li>
+        </ol>
 
-        </ul>
 
-        <div>
-            <br>
-            <span>Sometimes I ask myself these same questions.</span><br><br>
-            <span>What do I do?</span><br>
-            <span>Why am I here?</span><br>
-            <span>How did I get here?</span><br>
-            <span>How did YOU get here?</span><br>
-        </div>
-        </about>
+        <h2>Where can you find me?</h2> <!--target=”_blank” open in new tab-->
+        <p>Not at your feet anymore, it stinks!</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUjcmljayBhc3RsZXkgbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+            target=”_blank”>Thor Park 8040, 3600 Genk</a>
+        <br>
+
+    </ul>
+
+    <div>
+        <br>
+        <span>Sometimes I ask myself these same questions.</span><br><br>
+        <span>What do I do?</span><br>
+        <span>Why am I here?</span><br>
+        <span>How did I get here?</span><br>
+        <span>How did YOU get here?</span><br>
+    </div>
+    </about>
 </body>
-
 </html>
